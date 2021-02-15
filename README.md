@@ -1,6 +1,6 @@
-# Data Structures and Algorithms Notebook in Bangla 📖
+# Data Structures and Algorithms Notebook 📖
 
-ওপেন সোর্স বাংলা অ্যালগরিদম অ্যান্ড ডাটা স্ট্রাকচার নোটবুক
+ওপেন সোর্স অ্যালগরিদম অ্যান্ড ডাটা স্ট্রাকচার নোটবুক
 > কোন অ্যালগরিদম বা ডাটা স্ট্রাকচার খুঁজতে এই পেজ `ctrl+F` প্রেস করে ইংরেজিতে তার নাম লিখুন।
 
 বিঃদ্রঃ এখনো কোন কোড এর জন্য নোট লেখা হয় নি! ধীরে ধীরে করা হবে।
@@ -52,6 +52,7 @@
   - [Bubble Sort](/Sorting/BubbleSort/) ( [C](/Sorting/BubbleSort/bubbleSort.c) )
   - [Merge Sort](/Sorting/MergeSort/) ( [C++](/Sorting/MergeSort/mergeSort.cpp) )
   - [Quick Sort](/Sorting/QuickSort/) ( [C++](/Sorting/QuickSort/quickSort.cpp) )
+  - [Selection Sort](/Sorting/SelectionSort/) ( [Java](/Sorting/SelectionSort/selectionSort.java) )
 
 
 ### Data Structures
@@ -66,26 +67,30 @@
   
 ### Numerical Analysis
 - [Differential Equations](https://github.com/KhanShaheb34/Data-Structures-and-Algorithms-Notebook-Bangla/tree/master/NumericalAnalysis/DifferentialEquations)
-  - [Eular's Method](/NumericalAnalysis/DifferentialEquations/EularsMethod/) ( [Octave/Matlab](/NumericalAnalysis/DifferentialEquations/EularsMethod/Euler.m) )
-  - [Runge Kutta Method](/NumericalAnalysis/DifferentialEquations/RungeKuttaMethod/) ( [Octave/Matlab](/NumericalAnalysis/DifferentialEquations/RungeKuttaMethod/RungeKutta.m) )
+  - [Euler's Method](/NumericalAnalysis/DifferentialEquations/EulerMethod/) ( [Octave/Matlab](/NumericalAnalysis/DifferentialEquations/EulerMethod/euler_method.m), [Python](/NumericalAnalysis/DifferentialEquations/EulerMethod/euler_method.py) )
+  - [Runge Kutta Method](/NumericalAnalysis/DifferentialEquations/RungeKuttaMethod/) ( [Octave/Matlab(2nd Order)](/NumericalAnalysis/DifferentialEquations/RungeKuttaMethod/runga_kutta_2nd_order.m), [Python(4th Order)](/NumericalAnalysis/DifferentialEquations/RungeKuttaMethod/runga_kutta_4rth_order.py) )
+  - [Euler's Method and Runge Kutta Method Visualization](/master/NumericalAnalysis/DifferentialEquations/Visualizations) ( [Python](/NumericalAnalysis/DifferentialEquations/Visualizations/euler__runga_kutta__visualization.py)  )
   
 - [Root Finding Methods](/NumericalAnalysis/RootFindingMethods)
-  - [Bisection Method](/NumericalAnalysis/RootFindingMethods/BisectionMethod/) ( [Octave/Matlab](/NumericalAnalysis/RootFindingMethods/BisectionMethod/Bisection.m) )
-  - [False Position Method](/NumericalAnalysis/RootFindingMethods/FalsePositionMethod/) ( [Octave/Matlab](/NumericalAnalysis/RootFindingMethods/FalsePositionMethod/FalsePosition.m) )
-  - [Newton Raphson's Method](/NumericalAnalysis/RootFindingMethods/NewtonRaphsonMethod/) ( [Octave/Matlab](/NumericalAnalysis/RootFindingMethods/NewtonRaphsonMethod/NewtonRaphson.m) )
+  - [Bisection Method](/NumericalAnalysis/RootFindingMethods/BisectionMethod/) ( [Octave/Matlab](/NumericalAnalysis/RootFindingMethods/BisectionMethod/bisection_method.m), [Python](/NumericalAnalysis/RootFindingMethods/BisectionMethod/bisection_method.py) )
+  - [False Position Method](/NumericalAnalysis/RootFindingMethods/FalsePositionMethod/) ( [Octave/Matlab](/NumericalAnalysis/RootFindingMethods/FalsePositionMethod/false_position_method.m), [Python](/NumericalAnalysis/RootFindingMethods/FalsePositionMethod/false_position_method.py) )
+  - [Newton Raphson's Method](/NumericalAnalysis/RootFindingMethods/NewtonRaphsonMethod/) ( [Octave/Matlab](/NumericalAnalysis/RootFindingMethods/NewtonRaphsonMethod/newton_raphson's_method.m), [Python](/NumericalAnalysis/RootFindingMethods/NewtonRaphsonMethod/newton_raphson's_method.py) )
   
 - [System of Linear Equations](/NumericalAnalysis/SystemOfLinearEquations)
   - [Gauss Jacobi Method](/NumericalAnalysis/SystemOfLinearEquations/GaussJacobiMethod/) ( [Octave/Matlab](/NumericalAnalysis/SystemOfLinearEquations/GaussJacobiMethod/GaussJacobi.m) )
   - [Gauss Seidel Method](/NumericalAnalysis/SystemOfLinearEquations/GaussSeidelMethod/) ( [Octave/Matlab](/NumericalAnalysis/SystemOfLinearEquations/GaussSeidelMethod/GaussSeidel.m) )
+  - [Gaussian Elimination Method](/NumericalAnalysis/SystemOfLinearEquations/GaussianElimination/) ( [C](/NumericalAnalysis/SystemOfLinearEquations/GaussianElimination/gaussian_elimination.c), [Python](/NumericalAnalysis/SystemOfLinearEquations/GaussianElimination/gaussian_elemination.py) )
 
 
 ## Contributors (Direct and Indirect)
+- [Rakibul Ranak](https://github.com/RakibulRanak)
 - [Mehedi Hasan Rumi](https://github.com/mhRumi)
 - [Shaswata Das](https://github.com/shaswata56/)
-- [Rakibul Ranak](https://github.com/RakibulRanak)
+- [Mainul Islam Tanvir](https://github.com/Dr-thrax)
+- [Rafiul Islam](https://github.com/rafiulgits)
 
 ## License
-[Do What The Fuck You Want To Public License](/LICENSE)
+[GNU GENERAL PUBLIC LICENSE](/LICENSE)
 
 
 <!--- Links --->
